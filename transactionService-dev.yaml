@@ -50,6 +50,6 @@ management:
 
 info:
   app:
-    name: Config Server
-    description: Centralized configuration server for microservices
+    name: Trasnaction Service
+    description: Used To initiate the transaction
     version: 1.0.0
