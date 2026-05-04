@@ -23,7 +23,7 @@ spring:
         - id: alertcase-service
           uri: lb://alert-case-service
           predicates:
-            - Path=/msg/**
+            - Path=/api/investigation/**
           filters:
             - StripPrefix=1
 
