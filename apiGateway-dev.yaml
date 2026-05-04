@@ -24,8 +24,7 @@ spring:
           uri: lb://alert-case-service
           predicates:
             - Path=/api/investigation/**
-          filters:
-            - StripPrefix=1
+          
 
         - id: enrichment-service
           uri: lb://enrichmentService
