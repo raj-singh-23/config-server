@@ -1,3 +1,17 @@
+# eureka:
+#   client:
+#     service-url:
+#       defaultZone: http://localhost:8761/eureka/
+#     fetch-registry: true
+#     register-with-eureka: true
+#   instance:
+#     prefer-ip-address: true
+
+# logging:
+#   level:
+#     root: INFO
+#     com.cts.gemini_test_try2: DEBUG
+
 eureka:
   client:
     service-url:
@@ -11,3 +25,8 @@ logging:
   level:
     root: INFO
     com.cts.gemini_test_try2: DEBUG
+
+# ADD THIS SECTION to fix the startup crash
+google:
+  api:
+    key: AIzaSyBqyx43u-ObBb9Oq74lK1MEihWqmJDfGFc
