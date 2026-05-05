@@ -16,4 +16,4 @@ external:
   alertcase-service:
     url: http://alert-case-service
   decision-engine-service:
-    url: http://gemini_test_try2
+    url: http://decision-engine-service
