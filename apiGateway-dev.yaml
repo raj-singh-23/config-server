@@ -137,7 +137,7 @@ spring:
                 - Path=/api/enrich/**
 
             - id: decision-engine-service
-              uri: lb://gemini_test_try2
+              uri: lb://decision-engine-service   # was: lb://gemini_test_try2
               predicates:
                 - Path=/api/gemini/**
 
